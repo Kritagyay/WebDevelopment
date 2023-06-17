@@ -1,0 +1,24 @@
+body{
+    background-color: black;
+}
+
+h1{
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+
+.first
+{
+    width:50%;
+    height:50%;
+    margin-left: 25%;
+    margin-top: 100px;
+    color:white;
+    font-family: "Libre Baskerville", serif;
+    text-align: center;
+}
+.motivational_image
+{
+    border:5px solid goldenrod;
+    width:100%;
+}
