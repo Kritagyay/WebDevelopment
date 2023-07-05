@@ -1,0 +1,42 @@
+/* 
+
+Project Name: Cookie Monster 
+*/
+
+body {
+	background-image: url("../images/cookie-monster.jpg");
+	background-position: center;
+	background-attachment: fixed;
+	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#container{
+	background-color: black;
+	width: 450px;
+	padding: 15px;
+}
+
+h1{
+	color: white;
+	font-size: 80px;
+	text-align: left;
+}
+
+h2{
+	background-color: rgb(129, 202, 244);
+	color: black;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+p{
+	color: white;
+}
+
+a{
+	color:  rgb(129, 202, 244);
+	text-decoration: none;
+}
