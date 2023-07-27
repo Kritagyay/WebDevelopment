@@ -1,0 +1,90 @@
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+.clear {
+	clear: both;
+}
+
+
+.personal_pic{
+     height: 220px;
+     width:220px;
+     border-radius: 50%;
+}
+
+
+body{
+     background: url(../images/notebook.png);
+}
+
+#container{
+     margin: 0 auto 0 auto;
+     width: 1000px;
+}
+
+#header{
+     line-height: 10px;
+}
+
+
+#line_space{
+     line-height: 10%;
+}
+
+#main{
+     background-color: white;
+     padding: 20px;
+     width: 600px;
+     float: left;
+}
+
+#sidebar{
+     background-color: white;
+     width: 380px;
+     padding: 20px 20px 45px 20px;
+     float: right;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#footer{
+     font-size: 18px;
+     font-style: bold;
+}
+
+a{
+     text-decoration: none;
+     color: rgb(241, 87, 11);
+}
+
+p{
+     font-size: small;
+}
+
+p.grey_color{
+     color:grey;
+     font-size: small;
+}
+
+hr{
+     border-top: 1.5px solid grey;
+     background-color: grey;
+     
+     /* border-width: 1px; */
+}
+
+blockquote{
+     margin: 0 auto 0 2px;
+     border-left: 3.5px solid rgb(192, 191, 191);
+     padding: 0 6px 0 6px;
+     font-style: italic;
+}
+
+.pics{
+     object-fit: cover;
+     width:560px;
+}
